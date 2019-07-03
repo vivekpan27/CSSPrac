@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slideshow</title>
+  <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+</head>
+<body>
+  <div class="slide-container">
+    <div class="slide fade">
+      <span class="number">1/3</span>
+      <img src="images/wall1.jpg">
+      <div class="caption">Caption 1</div>
+    </div>
+    <div class="slide fade">
+      <span class="number">2/3</span>
+      <img src="images/wall2.jpeg">
+      <div class="caption">Caption 2</div>
+    </div>
+    <div class="slide fade">
+      <span class="number">3/3</span>
+      <img src="images/wall3.png">
+      <div class="caption">Caption 3</div>
+    </div>
+    <a class="prev" onclick="prevSlide()"><-</a>
+    <a class="next" onclick="nextSlide()">-></a>
+
+    <div class="thumbnail-container">
+      <div class="thumbnail-sec">
+        <img src="images/wall1.jpg">
+      </div>
+      <div class="thumbnail-sec">
+        <img src="images/wall2.jpeg">
+      </div>
+      <div class="thumbnail-sec">
+        <img src="images/wall3.png">
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+</html>
